@@ -1,0 +1,19 @@
+{
+    "name": "tesla/comprimir-imagenes",
+    "autoload": {
+        "psr-4": {
+            "Tesla\\ComprimirImagenes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesus Araujo",
+            "email": "jesusaraujo.0699@gmail.com"
+        }
+    ],
+    "require": {
+        "verot/class.upload.php": "^2.1",
+        "tdtrung17693/php-chalk": "^1.0",
+        "alecrabbit/php-cli-snake": "^0.6.0"
+    }
+}

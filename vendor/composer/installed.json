@@ -1,0 +1,218 @@
+{
+    "packages": [
+        {
+            "name": "alecrabbit/php-cli-snake",
+            "version": "0.6.0",
+            "version_normalized": "0.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alecrabbit/php-cli-snake.git",
+                "reference": "2312ac6a6e19ae22a05aec9f4ea70d3063dfde46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alecrabbit/php-cli-snake/zipball/2312ac6a6e19ae22a05aec9f4ea70d3063dfde46",
+                "reference": "2312ac6a6e19ae22a05aec9f4ea70d3063dfde46",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^4.2",
+                "phpunit/phpunit": "^9.5",
+                "react/event-loop": "^1.1",
+                "symfony/var-dumper": "^5.1"
+            },
+            "time": "2020-12-19T18:42:31+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "AlecRabbit\\Snake\\": "src\\Snake"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Lightweight cli spinner with zero dependencies",
+            "keywords": [
+                "256color",
+                "8bit",
+                "ansi",
+                "cli",
+                "color",
+                "colorful",
+                "console",
+                "php",
+                "snake",
+                "spinner"
+            ],
+            "support": {
+                "issues": "https://github.com/alecrabbit/php-cli-snake/issues",
+                "source": "https://github.com/alecrabbit/php-cli-snake/tree/0.6.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/alecrabbit",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../alecrabbit/php-cli-snake"
+        },
+        {
+            "name": "tdtrung17693/php-chalk",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-chalk.git",
+                "reference": "1492ba836a374a418f4e1a0ac402d7805f24f0b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-chalk/zipball/1492ba836a374a418f4e1a0ac402d7805f24f0b2",
+                "reference": "1492ba836a374a418f4e1a0ac402d7805f24f0b2",
+                "shasum": ""
+            },
+            "require": {
+                "tdtrung17693/php-os-recognizer": "^1.0"
+            },
+            "time": "2019-06-11T16:31:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\Chalk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "Just another PHP terminal string styling",
+            "keywords": [
+                "ansi-color",
+                "cli",
+                "cli-color",
+                "color",
+                "terminal-color"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-chalk/issues",
+                "source": "https://github.com/tdtrung17693/php-chalk/tree/v1.0.0"
+            },
+            "install-path": "../tdtrung17693/php-chalk"
+        },
+        {
+            "name": "tdtrung17693/php-os-recognizer",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-os-recognizer.git",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-os-recognizer/zipball/9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "time": "2019-06-11T13:37:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\OSRecognizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "OS recognizer for PHP",
+            "keywords": [
+                "detect",
+                "operating system",
+                "os",
+                "recognizer"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-os-recognizer/issues",
+                "source": "https://github.com/tdtrung17693/php-os-recognizer/tree/v1.0.0"
+            },
+            "install-path": "../tdtrung17693/php-os-recognizer"
+        },
+        {
+            "name": "verot/class.upload.php",
+            "version": "2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verot/class.upload.php.git",
+                "reference": "4d9aae875245948d21e42ade332fb45f897f28bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verot/class.upload.php/zipball/4d9aae875245948d21e42ade332fb45f897f28bb",
+                "reference": "4d9aae875245948d21e42ade332fb45f897f28bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "time": "2020-12-13T22:26:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/class.upload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Verot",
+                    "email": "colin@verot.net"
+                }
+            ],
+            "description": "This PHP class uploads files and manipulates images very easily.",
+            "homepage": "http://www.verot.net/php_class_upload.htm",
+            "keywords": [
+                "gd",
+                "upload"
+            ],
+            "support": {
+                "email": "colin@verot.net",
+                "issues": "https://github.com/verot/class.upload.php/issues",
+                "source": "https://github.com/verot/class.upload.php/tree/2.1.0"
+            },
+            "install-path": "../verot/class.upload.php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

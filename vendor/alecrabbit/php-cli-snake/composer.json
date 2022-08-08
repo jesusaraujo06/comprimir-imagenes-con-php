@@ -1,0 +1,39 @@
+{
+  "name": "alecrabbit/php-cli-snake",
+  "type": "library",
+  "description": "Lightweight cli spinner with zero dependencies",
+  "keywords": [
+    "php",
+    "spinner",
+    "console",
+    "cli",
+    "color",
+    "256color",
+    "8bit",
+    "colorful",
+    "ansi",
+    "snake"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3 || ^8.0"
+  },
+  "require-dev": {
+    "nunomaduro/collision": "^4.2",
+    "phpunit/phpunit": "^9.5",
+    "react/event-loop": "^1.1",
+    "symfony/var-dumper": "^5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlecRabbit\\Snake\\": "src\\Snake"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlecRabbit\\Tests\\Snake\\": "tests"
+    }
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}
